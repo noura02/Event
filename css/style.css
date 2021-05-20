@@ -1,0 +1,144 @@
+
+
+.main-color {
+    color: #D62E33;
+}
+.grey {
+    color: #777
+}
+
+/*______________________sec-1____________________________*/
+.sec-1 {
+    height: 110vh;
+    background: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../imgs/events-heavenly-header.jpg);
+    background-size:100% 100%;
+    
+}
+h1{
+    font-size:60px;
+}
+.side-bar {
+    
+}
+.side-sections {
+    background-color: #414658;
+    height: 100%;
+    width: 300px;
+    top: 0px;
+    bottom: 0;
+    left:-300px;
+    z-index:999;
+}
+.side-sections li {
+    padding: 30px;
+}
+.side-sections a{
+    font-size:25px;
+    font-weight:400;
+    transition:all 0.6s;
+    color:#fff;
+}
+    .side-sections a:hover {
+        text-decoration: none;
+        color: rgba(214, 46, 51, 0.6);
+    }
+    .side-sections i:hover {
+        text-decoration: none;
+        color: rgba(214, 46, 51, 0.6);
+    }
+    .side-sections i {
+        color: #fff;
+        transition:all 0.6s;
+        cursor:pointer;
+    }
+.side-icon{
+    height:fit-content();
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+
+/*______________________sec-2________________________*/
+.header {
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+.about{
+    background-color:#ccc;
+    
+}
+.sec-2 h3{
+    font-size:24px;
+    font-weight:400;
+}
+.sec-2 p{
+    font-size:14px;
+}
+#about2 ,#about3, #about4 {
+    display:none;
+    
+}
+#singer1,#singer2,#singer3,#singer4{
+    cursor:pointer;
+}
+
+/*______________________sec-3________________________*/
+.sec-3 .container-fluid {
+    background: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../imgs/invitation-2508607__340.jpg);
+    background-size:100% 100%;
+}
+.sec-3 p{
+    border:solid #fff 1px;
+}
+
+/*______________________sec-4________________________*/
+.sec-4 h2, .sec-4 h5 {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sec-4 h2{
+    font-size:35px;
+}
+.sec-4 h5{
+    font-size:18px;
+}
+.sec-4 p{
+    color:#777
+}
+.sec-4 i {
+    color: #777
+
+}
+.social i{
+    color:#777;
+    border:1px solid #777;
+    padding:10px;
+    margin-right:10px;
+    transition:all 0.6s;
+}
+    .social i:hover {
+        background-color: #D62E33;
+        color:#fff;
+    }
+.sec-4 button {
+    background-color: #D62E33;
+    color:white;
+    border:none;
+    text-transform:uppercase;
+        
+}
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+.form-group span{
+    font-size:20px;
+}
+
+
+
