@@ -1,5 +1,8 @@
 
+html{
+        scroll-behavior: smooth;
 
+}
 .main-color {
     color: #D62E33;
 }
